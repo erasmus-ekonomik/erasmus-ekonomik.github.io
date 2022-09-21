@@ -54,7 +54,21 @@
     margin-top: 0px;
     background-color: white;
 }
+
+.index-frame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 0.527);
+
+}
+
+
 .index-logo-div {
+    box-sizing: border-box;
 	position: relative;
     font-family: helvetica;
     color: white;
@@ -91,24 +105,71 @@
 	padding: 10px;
 }
 .index-button {
-	background: none;
-	border: none;
+    margin-top: 2vh;
+	background: transparent;
+	border: 3px solid rgb(255, 0, 0);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 7px;
-	color: #FFF;
-    background-color: #36f;
+	color: rgb(0, 0, 0);
+    background-color: transparent;
     width: 100%;
     height: fit-content;
 	border-radius: 6px;
 	text-shadow: 0 0px 0px;
-	border-width: 0px;
+	/*border-width: 0px;*/
 }
 
 .index-button:hover {
-	background-color: #59f;
+	background-color: rgba(255, 63, 4, 0.541);
+    transition-duration: 1s;
 	cursor: pointer;
+
 }
+
+/* ----------------------------------------------------------------------- */
+/* abolute navigation bar*/
+.navbar {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    
+    border: 2px solid firebrick;
+    border-radius: 10px;
+
+    width: fit-content;
+    height: fit-content;
+    background-color: firebrick;
+    padding: 2px;
+
+
+    
+}
+
+.nav-button {
+    background: transparent;
+	border: 3px solid rgb(150, 107, 107);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+	color: rgb(0, 0, 0);
+    background-color: #fff;
+    width: 5vh;
+    height: 5vh;
+	border-radius: 6px;
+	text-shadow: 0 0px 0px;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
 
 /* ----------------------------------------------------------------------- */
 /* leaflet overrides */
