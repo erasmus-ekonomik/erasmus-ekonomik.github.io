@@ -1,0 +1,65 @@
+<!-----------------------------------------------------------------------
+	index.html
+	Contributors:
+		- Piotr Wyszomirski
+		- Piotr Czyżewski
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<!----------------------------------------------------------------------->
+	<!-- head -->
+	<head>
+		<!-- meta -->
+		<title>Interactive map of Rimini</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- leaflet stylesheet -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+			integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+			crossorigin=""/>
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+
+	<!----------------------------------------------------------------------->
+	<!-- body -->
+	<body> 
+		<!-- map body -->
+		<div id="map" class="center"></div>
+		<!-- popups -->
+		<div id="popup-layer" class="visible-transition">
+			<div id="popup" class="container-background center">
+				<h3 class="popup-text">Welcome in Rimini!</h3>
+				<p class="popup-text">
+					We present to you an interactive map of Rimini, made by us <br>
+					as part of a task carried out during our internship.
+					<br><br>
+					The map shows the most important monuments and locations that<br>
+					we have visited during the project.
+					<br><br>
+					Enjoy the experience!
+				</p>
+				<p class="popup-text" style="font-size: small; opacity: 0.5;">
+					<b>Contributors:</b><br>
+					Piotr Wyszomirski, Piotr Czyżewski, Mateusz Kręciewski, Kamil Agłuszewicz,<br>
+					Zosia Grocholska, Mateusz Janiak, Mateusz Nienałtowski, Olek Wąsowski,<br>
+					Patryk Rutkowski
+				</p>
+				<p class="popup-text">
+					<input type="button" onclick="popupOnKeyPress()" value="Go to the map" id="popup-button" class="popup-button popup-text center-horizontal"><br><br>
+					<a href="map-pl.html"><input type="button" value="Zmień język na polski" class="popup-button popup-text center-horizontal"></a>
+				</p>
+			</div>
+		</div>
+		<!-- scripts -->
+		<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+			integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+			crossorigin=""></script>
+		<script src="src/Generic.js"></script>
+		<script src="src/Popup.js"></script>
+		<script src="src/MapSetup.js"></script>
+		<script src="src/PointOfInterest.js"></script>
+		<script src="src/MapPoints-en.js"></script>
+	</body>
+</html>
