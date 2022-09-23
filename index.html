@@ -3,6 +3,8 @@
 		<meta charset="UTF-8">
 		<title>Portugalia - Strona główna</title>
         <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/carousel.css">
+		<script src="src/Carousel.js"></script>
     </head>
     <body class="index-body">
         <div class="index-frame" id="index-frame-one">
@@ -32,8 +34,7 @@
 						W ramach projektu "-" wykonaliśmy wspólnię interaktywną wizytówkę Rimini w formie mapy z punktami. Punkty przedstawiają zabytki oraz lokacje zwiedzone przez nas podczas pobytu w Rimini w trakcie trwania naszych praktyk.
 					</p>
 				</div>
-				<div class="index-picture-spin">
-					<img src="" alt="Picture">
+				<div class="index-picture-spin" id="carousel1">
 				</div>
 			</div>
 		</div>
@@ -45,8 +46,7 @@
 					Rimini to miasto i gmina we Włoszech, w regionie Emilia-Romania, w prowincji Rimini, nad Morzem Adriatyckim. Jest to jedno z najpopularniejszych miast turystyczno-wypoczynkowych nad północnym Adriatykiem. <br>
 					</p>
 				</div>
-				<div class="index-picture-spin">
-					<img src="" alt="Picture">
+				<div class="index-picture-spin" id="carousel2">
 				</div>
 			</div>
 		</div>
@@ -58,8 +58,7 @@
 					Klasa 4 TIA
 					</p>
 				</div>
-				<div class="index-picture-spin">
-					<img src="" alt="Picture">
+				<div class="index-picture-spin" id="carousel3">
 				</div>
 			</div>
 		</div>
@@ -70,11 +69,24 @@
 				</div>
 			</div>
 		</div>
-
-
-
         <div class="index-content">
             <a href="map-pl.html"><button class="index-button">Przejdz do mapy</button></a>
         </div>
+	<script>
+		Carousel.create(
+				'carousel1',
+				['pic/carousel_example1.png', 'pic/carousel_example2.png', 'pic/carousel_example3.png'],
+				4000, '1s', true);
+
+		Carousel.create(
+				'carousel2',
+				['pic/carousel_example3.png', 'pic/carousel_example2.png', 'pic/carousel_example1.png'],
+				500, '500ms', true);
+
+		Carousel.create(
+				'carousel3',
+				['pic/carousel_example2.png', 'pic/carousel_example1.png', 'pic/carousel_example3.png'],
+				4000, '2s', true);
+	</script>
     </body>
 </html>
