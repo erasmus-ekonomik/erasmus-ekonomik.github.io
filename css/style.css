@@ -2,7 +2,7 @@
     style.css
 	Contributors:
 		- Piotr Wyszomirski (old)
-        - Dawid Pagowski
+        - Dawid Pągowski
         - Bartosz Morawski
 */
 
@@ -66,6 +66,7 @@
     justify-content: center;
     height: 100vh;
     background-color: rgba(27, 27, 27, 0.801);
+    color: white;
 }
 
 .scroll-wrapper {
