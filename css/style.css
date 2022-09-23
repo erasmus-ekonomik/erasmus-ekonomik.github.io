@@ -58,6 +58,7 @@
 }
 
 .index-frame {
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -65,6 +66,12 @@
     justify-content: center;
     height: 100vh;
     background-color: rgba(27, 27, 27, 0.801);
+}
+
+.scroll-wrapper {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 #index-frame-one {
