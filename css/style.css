@@ -176,6 +176,9 @@
 .index-picture-spin {
     height: 60vh;
     width: 30vw;
+}
+
+.index-picture-spin > .carousel img {
     border: 3px solid black;
 }
 
