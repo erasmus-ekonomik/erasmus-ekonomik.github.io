@@ -77,8 +77,12 @@
 }
 
 #index-frame-one-p {
+    /*
     position: relative;
     isolation: isolate;
+    */
+    z-index: 2;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
 }
 
 
@@ -101,7 +105,7 @@
 	position: relative;
     font-family: helvetica;
     color: white;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    background-image: transparent;
     width: 100%;
     height:15vh;
     margin-top: 0px;
@@ -121,7 +125,7 @@
 .index-background {
 	position: relative;
     width: 100%;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    background-image: transparent;
 }
 
 .index-grid {
@@ -135,7 +139,7 @@
 }
 
 .index-middle {
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    background-image: transparent;
     width: 100%;
     height: 40vh;
     z-index: 1;
@@ -207,14 +211,15 @@
 }
 
 .index-map-contener {
-    height: 60vh;
-    width: 30vw;
+    height: 80vh;
+    width: 60vw;
     border: 8px solid black;
     background-color: transparent;
     background-image: url(../pic/mapa.png);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+
 
 
 }
