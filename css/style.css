@@ -64,7 +64,7 @@
     justify-content: center;
     height: 100vh;
     background-color: rgba(27, 27, 27, 0.801);
-    background-image: url(/pic/bg4.jpg);
+    /*background-image: url('../pic/bg4.jpg');*/
     color: white;
 }
 
@@ -177,24 +177,25 @@
 
 .index-button {
     background: transparent;
-    border: 3px solid rgb(255, 0, 0);
+    border: 3px solid rgb(122, 66, 226);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 7px;
+    padding: 14px 7px;
     color: rgb(0, 0, 0);
     width: 100%;
     height: fit-content;
     border-radius: 6px;
     text-shadow: 0 0 0;
+    font-size: 2rem;
 }
 
 .index-button:hover {
-    background-color: rgba(255, 63, 4, 0.541);
+    background-color: rgba(122, 66, 226, 0.541);
     transition-duration: 1s;
     cursor: pointer;
 }
 
-.index-map-contener {
+.index-map-container {
     height: 80vh;
     width: 60vw;
     border: 8px solid black;
