@@ -21,4 +21,4 @@ L.tileLayer(
 }).addTo(map);
 
 // map coords
-map.setView([44.059624, 12.568301], 15);
+map.setView([41.53602337914746, -8.61212123846896], 10);
