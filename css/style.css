@@ -6,6 +6,10 @@
         - Bartosz Morawski
 */
 
+body {
+    overflow-x: hidden;
+}
+
 /* ----------------------------------------------------------------------- */
 /* generic */
 .center {
@@ -48,6 +52,20 @@
 
 /* ----------------------------------------------------------------------- */
 /* index */
+
+.index-logo-bg {
+    position: absolute;
+    top: 5%;
+    opacity: 0.2;
+}
+
+.index-logo-bg-right {
+    position: absolute;
+    right: -5%;
+    overflow: hidden;
+    transform: scale(160%);
+    opacity: 0.5;
+}
 
 .index-body {
     color: black;
@@ -113,6 +131,10 @@
     text-align: center;
     border-radius: 20px;
     padding: 10px 0;
+}
+
+.index-logo-middle {
+    width: 10%;
 }
 
 .index-background {
@@ -418,6 +440,9 @@
         font-size: 4vw;
         margin: 0;
     }
+    .index-logo-middle {
+        width: 20%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -439,5 +464,8 @@
     .index-picture-spin {
         width: 70%;
         height: 70%;
+    }
+    .index-logo-middle {
+        width: 30%;
     }
 }
