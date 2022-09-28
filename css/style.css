@@ -145,9 +145,11 @@ body {
 .index-grid {
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: auto;
     margin: 0 2%;
     gap: 8vw;
-    grid-row-start: 1;
+    place-items: center;
+    
 }
 
 .index-middle {
@@ -187,12 +189,9 @@ body {
 .index-picture-spin {
     height: 60vh;
     width: 30vw;
-    order: 2;
+    padding: 20% 0;
 }
 
-.index-grid-reverse {
- grid-row-start: 2;
-}
 
 .index-picture-spin > .carousel img {
     border: 3px solid black;
@@ -201,7 +200,7 @@ body {
 .index-content {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 2%;
-    order: 1;
+    
 }
 
 .index-button {
