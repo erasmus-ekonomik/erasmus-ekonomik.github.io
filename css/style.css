@@ -423,9 +423,8 @@
 @media (max-width: 768px) {
     .index-grid {
         grid-template-columns: unset;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
+        grid-template-rows: auto auto;
+        place-items: center;
         width: 100%;
     }
 
