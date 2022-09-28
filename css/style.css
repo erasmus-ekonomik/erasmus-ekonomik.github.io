@@ -191,8 +191,7 @@ body {
 }
 
 .index-grid-reverse {
- order: 1;
- grid-row-start: 1;
+ grid-row-start: 2;
 }
 
 .index-picture-spin > .carousel img {
