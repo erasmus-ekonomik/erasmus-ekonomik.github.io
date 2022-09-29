@@ -376,6 +376,8 @@ body {
 
 .point-popup-image {
     width: 350px;
+    max-height: 550px;
+    object-fit: cover;
 }
 
 .point-popup-arrow-background {

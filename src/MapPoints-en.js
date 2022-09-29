@@ -9,144 +9,109 @@
 
 // -----------------------------------------------------------------------
 // arch
-var pointArch = new PointOfInterest("arch");
-pointArch.title = "August's arch";
-pointArch.description = 'The arch, marking the end point of the ancient road via Flaminia, was erected in 27 BCE. by order of Octavian Augustus. The single-span structure is decorated with a pediment supported by half-columns topped with Corinthian capitals. Next to the capitals there are medallions with images of Jupiter, Neptune, Apollo and Roma. In antiquity, the building was probably crowned with a statue of Augustus. At the top of the arch, an inscription has been preserved: "The Senate and the Roman people to the Emperor Caesar Augustus, the son of the divine Julius, the seven-time emperor, the seven-time consul and consul appointed for the eighth time, for paving via Flaminia and others frequently Italy&#39;s roads traveled, on its own initiative and at its own expense."';
-pointArch.coordinates = [44.056966505162244, 12.571134912559819];
-pointArch.addImage("img/arch (1).jpg");
-pointArch.addImage("img/arch (2).jpg");
-pointArch.addImage("img/arch (3).jpg");
-pointArch.addImage("img/arch (4).jpg");
-pointArch.addImage("img/arch (5).jpg");
-pointArch.bind();
+//var pointArch = new PointOfInterest("arch");
+//pointArch.title = "Łuk Augusta";
+//pointArch.description = "Łuk, wyznaczający krańcowy punkt starożytnej drogi via Flaminia, został wzniesiony w 27 p.n.e. z polecenia Oktawiana Augusta. Jednoprzęsłowa konstrukcja ozdobiona jest frontonem wspartym na półkolumnach zwieńczonych korynckimi kapitelami. Obok kapiteli umieszczono medaliony z wizerunkami Jowisza, Neptuna, Apolla i Romy. W starożytności budowla zwieńczona była przypuszczalnie posągiem Augusta. Na szczycie łuku zachowała się inskrypcja o treści: <b> <br> „Senat i lud rzymski Imperatorowi Cezarowi Augustowi, synowi boskiego Juliusza, siedmiokrotnemu imperatorowi, siedmiokrotnemu konsulowi i konsulowi wyznaczonemu po raz ósmy, za to, że wybrukował via Flaminia i inne często uczęszczane drogi Italii, z własnej inicjatywy i na koszt własny.”";
+//pointArch.coordinates = [44.056966505162244, 12.571134912559819];
+//pointArch.addImage("img/arch (1).jpg");
+//pointArch.addImage("img/arch (2).jpg");
+//pointArch.addImage("img/arch (3).jpg");
+//pointArch.addImage("img/arch (4).jpg");
+//pointArch.addImage("img/arch (5).jpg");
+//pointArch.bind();
 
-// -----------------------------------------------------------------------
-// beach
-var pointBeach = new PointOfInterest("beach");
-pointBeach.title = "Beach";
-pointBeach.description = "Rimini in Italy is basically one big and very long beach. The very gentle descent to the sea and the sandy bottom are suitable for everyone - both the oldest and the youngest. The calm and warm waters of the Adriatic Sea will keep you cool even on the hottest day. Swimming here is really a lot of fun! Let's not forget about the beautiful sunrises.";
-pointBeach.coordinates = [44.068138, 12.585501];
-pointBeach.addImage("img/beach (1).jpg");
-pointBeach.addImage("img/beach (2).jpg");
-pointBeach.addImage("img/beach (3).jpg");
-pointBeach.bind();
+//pointCastle.addImage("pic//arch (5).jpg");
 
-// -----------------------------------------------------------------------
-// malatestiano temple
+var pointPalace = new PointOfInterest("palace");
+pointPalace.title = "Palácio Duques de Bragança";
+pointPalace.description = "This medieval palace is close to the Guimarães Castle and the small Romanesque Chapel of São Miguel. It was built in the 15th century. in the style of the houses of the French nobility by order of Afonso de Barcelos, first Duke of Braganc. For a long time, the palace served as the official prince's residence, however, after the transfer of this status to the palace in Vila Visosa, it was abandoned and fell into disrepair. In the middle of the 20th century. During the reign of the dictator Salazar, the Palace of the Dukes of Braganza was restored and granted the status of a presidential residence. Currently, a museum is open here. The palace has an amazing collection of exhibits: porcelain and Persian rugs, many tapestries with scenes from Portuguese history, medieval weapons, as well as a collection of portraits and Portuguese furniture from the 17th to 18th centuries. Here, it will be interesting to see royal bedrooms, a banquet hall, an armory and a chapel with beautiful stained glass windows.";
+pointPalace.coordinates = [41.446584637897686, -8.291293842727809];
+pointPalace.addImage("pic/gumaires/palace (1).jpg");
+pointPalace.addImage("pic/gumaires/palace (2).jpg");
+pointPalace.bind();
+
+var pointCastle = new PointOfInterest("castle");
+pointCastle.title = "Castelo de Guimaraesa";
+pointCastle.description = "Guimarães Castle is a military fortification built in the 10th century on the foundations of an ancient Roman structure. It is directly related to the independence of Portugal and is considered the birthplace of the country's nationality. According to tradition, the first king of Portugal, D. Afonso Henriques (1109 - 1185) was born here.";
+pointCastle.coordinates = [41.44792511998326, -8.29030888408886];
+pointCastle.addImage("pic/gumaires/castle (1).jpg");
+pointCastle.addImage("pic/gumaires/castle (2).jpg");
+pointCastle.addImage("pic/gumaires/castle (3).jpg");
+pointCastle.addImage("pic/gumaires/castle (4).jpg");
+pointCastle.bind();
+
 var pointTemple = new PointOfInterest("temple");
-pointTemple.title = "Malatestiano Temple";
-pointTemple.description = "The Temple of Malatesta is a 13th century church rebuilt in the 15th century into the mausoleum of the ruler of Rimini, Sigismond Pandolf Malatesta. Originally it was a Gothic temple belonging to the Franciscan monastery. In the mid-15th century, Malatesta hired the architect and sculptor Leon Battista Alberti to rebuild the church in line with the spirit of the Renaissance and make it its mausoleum.";
-pointTemple.coordinates = [44.05973280649547, 12.57015880016824];
-pointTemple.addImage("img/temple (1).jpg");
-pointTemple.addImage("img/temple (2).jpg");
+pointTemple.title = "Igreja Nossa Senhora do Carmo";
+pointTemple.description = "It was built in the second half of the 18th century in the Baroque and Rococo style. Attached to the Carmelite Church, on the west side, handed over to the Order in 1752. The construction of two churches together was then forbidden, so a so-called house was built between them. Casa Escondida do Porto, which separates the two churches and is just over 1.5 meters wide.";
+pointTemple.coordinates = [41.4459378663381, -8.292455009259674];
+pointTemple.addImage("pic/gumaires/igerja (1).jpg");
+pointTemple.addImage("pic/gumaires/igerja (2).jpg");
 pointTemple.bind();
 
-// -----------------------------------------------------------------------
-// bridge
-var pointBridge = new PointOfInterest("bridge");
-pointBridge.title = "Bridge of Tiberius";
-pointBridge.description = "Ancient Roman bridge over the Marecchia River in Rimini, Italy, along the Via Aemilia road. The construction of the bridge began during the reign of Emperor Okrawian August in 14 CE, and was completed during the reign of Tiberius around 21 CE. The bridge is one of the oldest structures of this type and at the same time one of the best-preserved ancient bridges. As one of the most beautiful bridges from Roman times, it became a model for a number of European bridges of the 16th and 17th centuries (e.g. in Paris or London).";
-pointBridge.coordinates = [44.06359144159128, 12.563885112435287];
-pointBridge.addImage("img/bridge (1).jpg");
-pointBridge.addImage("img/bridge (2).jpg");
-pointBridge.addImage("img/bridge (3).jpg");
-pointBridge.addImage("img/bridge (4).jpg");
-pointBridge.addImage("img/bridge (5).jpg");
-pointBridge.addImage("img/bridge (6).jpg");
-pointBridge.addImage("img/bridge (7).jpg");
-pointBridge.addImage("img/bridge (8).jpg");
-pointBridge.addImage("img/bridge (9).jpg");
-pointBridge.addImage("img/bridge (10).jpg");
-pointBridge.addImage("img/bridge (11).jpg");
-pointBridge.bind();
+var pointCathedral = new PointOfInterest("cathedral");
+pointCathedral.title = "Braga Cathedral";
+pointCathedral.description = "Braga Cathedral is the oldest cathedral in Portugal. Located in the historic center of Braga, it is the seat of the Archdiocese of Braga. The Archbishop of Braga is the Primate of all of Portugal. This temple has a beautiful set of architectural styles, among which you can admire the Romanesque in structure; Manueline in its cover, or Baroque in their magnificent ornaments.";
+pointCathedral.coordinates = [41.55030835647579, -8.426865574301342];
+pointCathedral.addImage("pic/braga/church (1).jpg");
+pointCathedral.addImage("pic/braga/church (2).jpg");
+pointCathedral.addImage("pic/braga/church (3).jpg");
 
-// -----------------------------------------------------------------------
-// fountain
-var pointFoutain = new PointOfInterest("foutain");
-pointFoutain.title = "Della Pigna fountain";
-pointFoutain.description = 'The fountain, located in Piazza Cavour next to the statue of Paul V, was built in 1543 by Giovanni da Carrara, keeping the original layout. The drum supporting the Piga, dating from Roman times and rich in reliefs, is much older. The beauty and shape of the water features also enchanted Leonardo da Vinci, whose testimony is carved on the monument: "Agree with the different waterfalls, as you saw at the Rimini spring."';
-pointFoutain.coordinates = [44.0606561103105, 12.565921872306864];
-pointFoutain.addImage("img/fountain.jpg");
-pointFoutain.bind()
+pointCathedral.bind();
 
-// -----------------------------------------------------------------------
-// caesar
-var pointCaesar = new PointOfInterest("caesar");
-pointCaesar.title = "Caesars monument";
-pointCaesar.description = "The monument was set to commemorate the crossing of the Rubicon and Caesar's entry into Italy. He was introduced as an emperor, dressed in ranches and paludamentum";
-pointCaesar.coordinates = [44.05980020571286, 12.568036132464934];
-pointCaesar.addImage("img/caesar.jpg");
-pointCaesar.bind()
+// var pointStairs = new PointOfInterest("schody");
+// pointStairs.title = "Bom Jesus Staircases";
+// pointStairs.description = "Świątynia";
+// pointStairs.coordinates = [41.554593556888804, -8.378757012940845];
+// pointStairs.addImage("img/arch (5).jpg");
+// pointStairs.bind();
 
-// -----------------------------------------------------------------------
-// borgo
-var pointBorgo = new PointOfInterest("borgo");
-pointBorgo.title = "Borgo San Giuliano ";
-pointBorgo.description = "Low-rise colorful buildings are decorated with artistic murals. The history of the settlement dates back to the 11th century, it was a popular district consisting of alleys and low houses, inhabited by sailors and fishermen. Federico Fellini, a famous Italian director, was from Rimini and he loved this part of the city, so the decorations and murals show the most beautiful scenes from the movies and his life. Within the walls of the village it is also worth eating something, there are small atmospheric restaurants offering typical tasty dishes";
-pointBorgo.coordinates = [44.0649636,12.5657618];
-pointBorgo.addImage("img/borgo (1).jpg");
-pointBorgo.addImage("img/borgo (2).jpg");
-pointBorgo.addImage("img/borgo (3).jpg");
-pointBorgo.bind()
+var pointBragaChurch = new PointOfInterest("kosciolBraga");
+pointBragaChurch.title = "Bom Jesus do monte";
+pointBragaChurch.description = "The Bom Jesus Sanctuary in Braga is a reference to Portuguese neoclassical art and the most famous shrine in Portugal after the Sanctuary of Our Lady of the Rosary in Fatima. It has long been a place of pilgrimage. The staircase leading to the top consists of 17 levels decorated with symbolic fountains, allegorical statues and other baroque decorations devoted to various themes. Believers are encouraged to kneel into the basilica on the top of the hill, thereby experiencing the pain of Christ on the way to death.";
+pointBragaChurch.coordinates = [41.55469794500868, -8.376364491341201];
+pointBragaChurch.addImage("pic/braga/stairway (1).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (2).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (3).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (4).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (5).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (6).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (7).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (8).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (9).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (10).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (11).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (12).jpg");
+pointBragaChurch.addImage("pic/braga/stairway (15).jpg"); 
+pointBragaChurch.bind();
 
-// -----------------------------------------------------------------------
-// pope
-var pointPope = new PointOfInterest("pope");
-pointPope.title = "Monument of Pope";
-pointPope.description = "The monument shows the Italian clergyman, the 233rd pope in the period from May 16, 1605 to January 28, 1621.";
-pointPope.coordinates = [44.0605759188354, 12.565634552717823];
-pointPope.addImage("img/pope.jpg");
-pointPope.bind()
+var pointCentre = new PointOfInterest("centrumGumaires");
+pointCentre.title = "Centro de Gumairese";
+pointCentre.description = "The historic city of Guimarães is associated with the formation of the Portuguese national identity in the 12th century. Extremely well-preserved and authentic example of the transformation of a medieval city into a modern one. Having a rich typology of buildings that testifies to a specific evolution of Portugal, still using materials and traditional building techniques. It is the first capital of Portugal from the 12th century.";
+pointCentre.coordinates = [41.44278536234879, -8.292722820333019];
+pointCentre.addImage("pic/gumaires/centre (1).jpg");
+pointCentre.addImage("pic/gumaires/centre (2).jpg");
+pointCentre.addImage("pic/gumaires/centre (3).jpg");
+pointCentre.addImage("pic/gumaires/centre (4).jpg");
+pointCentre.addImage("pic/gumaires/centre (5).jpg");
+pointCentre.bind();
 
-// -----------------------------------------------------------------------
-// theatre
-var pointTheatre = new PointOfInterest("theatre");
-pointTheatre.title = "Theatre Amintore Galli";
-pointTheatre.description = "The Amintore Galli Theater, opened in 1857, is the main theater in the city. Originally named the Municipal Theater of Vittorio Emanuele II, it was renamed the composer Amintore Galli. Construction began in 1843 according to the neoclassical design by Luigi Poletti. In 1943, when Allied bombing during World War II left nothing but the facade and part of the foyer, the building was restored and reopened in 2019.";
-pointTheatre.coordinates = [44.06033200601222, 12.565118940708874];
-pointTheatre.addImage("img/amphitheatre (2).jpg");
-pointTheatre.bind()
+var pointDworzec = new PointOfInterest("dworzecPKP");
+pointDworzec.title = "Porto-São Bento";
+pointDworzec.description = "Porto-São Bento is a train station in Porto, Portugal. The station was commissioned in 1916. It is known for the azulejo tiles decorating the interior of the building, depicting scenes from the history of the country.";
+pointDworzec.coordinates = [41.14566631499273, -8.610533049447204];
+pointDworzec.addImage("pic/porto/dworzec (1).jpg");
+pointDworzec.addImage("pic/porto/dworzec (2).jpg");
+pointDworzec.addImage("pic/porto/dworzec (3).jpg");
 
-// -----------------------------------------------------------------------
-// castle
-var pointCastle = new PointOfInterest("castle");
-pointCastle.title = "Sigismondo's castle";
-pointCastle.description = "A castle built in the first half of the 15th century at the behest of Rimini's ruler, Sigismondo Pandolfo Malatesta, now used by the city for cultural exhibition purposes. It is a Renaissance city stronghold with residential buildings on high foundations and a reinforced gate leading to the courtyard In the past, the castle was surrounded by a moat, which was filled in in the 19th century ";
-pointCastle.coordinates = [44.05978454306618, 12.563581849177568];
-pointCastle.addImage("img/castle (1).jpg");
-pointCastle.addImage("img/castle (2).jpg");
-pointCastle.addImage("img/castle (3).jpg");
-pointCastle.bind()
+pointDworzec.bind();
 
-// -----------------------------------------------------------------------
-// doctor's house
-var pointDoctor = new PointOfInterest("doctor");
-pointDoctor.title = "Surgeon's domus";
-pointDoctor.description = 'The surgeon&#39;s domus (from the 2nd century AD) is a medical clinic, perfectly preserved. Due to a fire during the barbarian invasion, the walls of the clinic collapsed. Every detail has been restored and preserved, especially the world&#39;s most comprehensive collection of surgical tools, from amputations to dental fillings. Next to it is the best ice cream parlor in the city - "La Romania"';
-pointDoctor.coordinates = [44.06216087140467, 12.5676153460221];
-pointDoctor.addImage("img/doctor (1).jpg");
-pointDoctor.addImage("img/doctor (2).jpg");
-pointDoctor.addImage("img/doctor (3).jpg");
-pointDoctor.addImage("img/doctor (4).jpg");
-pointDoctor.bind()
-
-// -----------------------------------------------------------------------
-// clock tower
-var pointClock = new PointOfInterest("clock");
-pointClock.title = "Clock Tower";
-pointClock.description = "The clock tower was built in 1547, the clock was added in 1562, renovated and rebuilt several times. The clock face contains the phases of the zodiac and the moon. On the facade of the tower there is a large plaque <b> Glory to the fallen for freedom";
-pointClock.coordinates = [44.0596053476635, 12.568534702455064];
-pointClock.addImage("img/clock (1).jpg");
-pointClock.addImage("img/clock (2).jpg");
-pointClock.bind()
-
-// -----------------------------------------------------------------------
-// saint antonio's temple
-var pointSantAntonio = new PointOfInterest("SantAntonio");
-pointSantAntonio.title = "Sant Antonio temple";
-pointSantAntonio.description = "Tempietto di Sant'Antonio is a small, octagonal temple or chapel dedicated to St. Antoni of Padua. Initially built here in 1518, commissioned by Pietro Ricciardelli. The chapel was rebuilt in baroque style after the earthquake in 1672. Legend has it that the structure was built to celebrate the Eucharistic miracle in this place.";
-pointSantAntonio.coordinates = [44.05908422031786, 12.56893763160018];
-pointSantAntonio.addImage("img/santantonio.jpg");
-pointSantAntonio.bind()
+var pointPortoChurch = new PointOfInterest("kosciolPorto");
+pointPortoChurch.title = "Kościół św. Ildefonsa w Porto";
+pointPortoChurch.description = "Igreja do Carmo is a truly remarkable church. It is famous for its side facade covered with traditional blue azulejo tiles - it is the largest decoration of this type in the whole of Porto. The large ceramic panel by Silvestre Silvestri commemorates the admission of novices to the Order of Our Lady of Mount Carmel. The temple was built in the 18th century and is a great example of late baroque architecture.";
+pointPortoChurch.coordinates = [41.14617272417474, -8.606673885626677];
+pointPortoChurch.addImage("pic/porto/church (1).jpg");
+pointPortoChurch.addImage("pic/porto/church (2).jpg");
+pointPortoChurch.addImage("pic/porto/church (3).jpg");
+pointPortoChurch.bind();
 
 
