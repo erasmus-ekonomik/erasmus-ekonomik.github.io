@@ -187,9 +187,12 @@ body {
 }
 
 .index-picture-spin {
-    height: 60vh;
     width: 30vw;
-    padding: 20% 0;
+    
+    height: 100%;
+     
+    padding: 0;
+    
 }
 
 
@@ -215,6 +218,7 @@ body {
     border-radius: 6px;
     text-shadow: 0 0 0;
     font-size: 2rem;
+    -webkit-text-stroke: 1px #fff;
 }
 
 .index-button:hover {
@@ -227,7 +231,7 @@ body {
     height: 80vh;
     width: 60vw;
     border: 8px solid black;
-    background-color: transparent;
+    background-color: rgba(27, 27, 27, 0.801);
     background-image: url(../pic/mapa.png);
     display: flex;
     justify-content: space-around;
@@ -240,6 +244,7 @@ body {
     background-color: rgba(0, 0, 0, 0.438);
     color: whitesmoke;
     text-align: center;
+    
 }
 
 /* ----------------------------------------------------------------------- */
