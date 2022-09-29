@@ -22,7 +22,7 @@
 
 var pointPalace = new PointOfInterest("palace");
 pointPalace.title = "Palace Duques de Bragança";
-pointPalace.description = "Pałac";
+pointPalace.description = "Ten średniowieczny pałac znajduje się w pobliżu zamku Guimarães i małej romańskiej kaplicy São Miguel. Został zbudowany w XV wieku. w stylu domów szlachty francuskiej z rozkazu Afonso de Barcelos, pierwszego księcia Braganca. Przez długi czas pałac służył jako oficjalna rezydencja książęca, jednak po przekazaniu tego statusu pałacowi w Vila Visosa został opuszczony i popadł w ruinę. W połowie XX wieku. za panowania dyktatora Salazara Pałac Książąt Braganzy został odrestaurowany i nadano mu status rezydencji prezydenckiej. Obecnie otwarte jest tu muzeum. Pałac posiada niesamowitą kolekcję eksponatów: porcelanowe i perskie dywany, wiele gobelinów ze scenamiz historii Portugalii, średniowieczną broń, a także kolekcję portretów i portugalskich mebli z XVII-XVIII wieku. Tutaj ciekawie będzie zobaczyć królewskie sypialnie, salę bankietową, zbrojownię i kaplicę z pięknymi witrażami.";
 pointPalace.coordinates = [41.446584637897686, -8.291293842727809];
 pointPalace.addImage("img/arch (5).jpg");
 pointPalace.bind();
@@ -78,7 +78,7 @@ pointDworzec.bind();
 
 var pointPortoChurch = new PointOfInterest("kosciolPorto");
 pointPortoChurch.title = "Kościół św. Ildefonsa w Porto";
-pointPortoChurch.description = "Świątynia";
+pointPortoChurch.description = "Igreja do Carmo to kościół naprawdę niezwykły. Słynie on przede wszystkim ze swojej bocznej fasady pokrytej tradycyjnymi niebieskimi kafelkami azulejo - to największa tego typu dekoracja w całym Porto. Na wielkim, ceramicznym panelu, dziele Silvestre Silvestriego, uwieczniono przyjmowanie nowicjuszek do Zakonu Matki Boskiej z Góry Karmel. Świątynia została wzniesiona w XVIII wieku i jest wspaniałym przykładem architektury późnobarokowej.";
 pointPortoChurch.coordinates = [41.14617272417474, -8.606673885626677];
 pointPortoChurch.addImage("img/arch (5).jpg");
 pointPortoChurch.bind();
