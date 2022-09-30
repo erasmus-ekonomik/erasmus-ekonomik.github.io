@@ -150,7 +150,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    margin: 0 2%;
+    margin: 0 8%;
     gap: 8vw;
     place-items: center;
     
