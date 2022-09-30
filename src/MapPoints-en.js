@@ -115,3 +115,10 @@ pointPortoChurch.addImage("pic/porto/church (3).jpg");
 pointPortoChurch.bind();
 
 
+var pointCamp = new PointOfInterest("Campus");
+pointCamp.title = "Campus Mobility Friends";
+pointCamp.descripption = "Place where we lived";
+pointCamp.coordinates = [41.515447582998725, -8.588107345089995];
+pointCamp.addImage("pic/flag.jpg");
+pointCamp.addImage("pic/mf.jpg");
+pointCamp.bind();
